@@ -1,6 +1,6 @@
 {
   "name": "routree",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yet Another react routing library, ugh.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diiq/phocus.git"
+    "url": "git+https://github.com/diiq/routree.git"
   },
   "keywords": [
     "react",
@@ -22,9 +22,9 @@
   "author": "Sam Bleckley (sam@sambleckley.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/diiq/phocus/issues"
+    "url": "https://github.com/diiq/routree/issues"
   },
-  "homepage": "https://github.com/diiq/phocus#readme",
+  "homepage": "https://github.com/diiq/routree#readme",
   "dependencies": {
     "history": "^4.6.1"
   },
