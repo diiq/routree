@@ -1,6 +1,6 @@
 {
   "name": "routree",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yet Another react routing library, ugh.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,15 +32,16 @@
     "react": "^16"
   },
   "devDependencies": {
+    "@types/history": "^4.5.0",
     "@types/jasmine": "^2.8.8",
     "@types/prop-types": "^15.5.5",
     "@types/react": "^16.4.10",
     "enzyme": "^3.4.1",
     "enzyme-adapter-react-16": "^1.2.0",
     "jest": "^23.5.0",
+    "jest-cli": "^23.5.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
-    "@types/history": "^4.5.0",
     "react-dom": "^16.4.2",
     "typescript": "^3.0.1"
   },
