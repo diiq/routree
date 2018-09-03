@@ -62,6 +62,27 @@ class App extends React.Component {
 }
 ```
 
+### Links
+
+`Link` is a component that creates a history-tracking SPA-style link. A Link is required to have a `to` attribute, which names the path to transition to.
+
+```
+<Link to="org/billing">Billing</Link>
+```
+
+#### Optional params
+* `query`: an object, mapping query params to values 
+* `state`: any type; state is invisible to the URL, and so not tracked when bookmarked, shared, etc
+* `className`: a string; these classes are always attached to the link
+* `activeClassName`: a string; these classes are present when the current page is the linked-to page, in addition to those classes in className
+* `replaceHistory`: a boolean. When true/present, the linked-to page will replace the current page in history; the back button will skip the current page once the link is clicked.
+* `beforeGo`: A function of zero arguments. Is called after the link is clicked but before the link is followed. Not called when link is opened in new tab.
+* `style`: CSSProperties.
+* `tabIndex`: A number.
+* `role`: A string. For a11y.
+* `target`: string. Just like any \<a> tag.
+* `title`: string.
+
 ## Example usage
 
 See [Vistimo](https://www.vistimo.com) for a complicated use-case.

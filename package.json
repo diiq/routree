@@ -1,6 +1,6 @@
 {
   "name": "routree",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Yet Another react routing library, ugh.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
